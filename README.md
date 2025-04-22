@@ -18,20 +18,6 @@ O projeto contém os seguintes arquivos:
 
 - **index.html**: Este arquivo é a página principal da aplicação. Ele contém a estrutura HTML, incluindo cabeçalho, navegação, conteúdo principal e rodapé.
 
-## Como Executar o Projeto
-
-1. **Clone o repositório**: 
-   ```
-   git clone <URL do repositório>
-   ```
-
-2. **Navegue até o diretório do projeto**:
-   ```
-   cd projeto-aplicacoes-para-internet
-   ```
-
-3. **Abra o arquivo `index.html` em um navegador** para visualizar a aplicação.
-
 ## Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
