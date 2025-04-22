@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root {
+    --cor0: #1e1e29;
+    --cor1: #132d46;
+    --cor2: #01c38e;
+    --cor3: #ffff;
+
+    --fonte-padrao: arial, verdana, Helvetica, sans-serif;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color: #abc8ff67;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor0));
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+header > h1 {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.753);
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    color: white;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.719);
+}
+
+nav {
+    background-color: #1e1e29;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.623);
+}
+
+nav > a {
+    color: #dcdcff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: rgba(140, 238, 140, 0.534);
+    color: #132d46;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.658);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: var(--cor1);
+    font-family: "Kanit", sans-serif;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main img {
+    width: 100%;
+}
+
+footer {
+    background-color: #132d46;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #01c38e;
+}
